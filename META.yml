@@ -4,11 +4,12 @@ author:
   - 'Chris Williams <chris@bingosnet.co.uk>'
   - 'Hinrik Örn Sigurðsson <hinrik.sig@gmail.com>'
 build_requires:
+  Pod::Parser: 0
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.31
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.102341, CPAN::Meta::Converter version 2.102400'
+generated_by: 'Dist::Zilla version 4.102341, CPAN::Meta::Converter version 2.101670'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -28,5 +29,5 @@ resources:
   homepage: http://search.cpan.org/dist/Object-Pluggable/
   license: http://dev.perl.org/licenses/
   repository: git://github.com/hinrik/object-pluggable.git
-version: 1.27
+version: 1.28
 x_authority: cpan:HINRIK

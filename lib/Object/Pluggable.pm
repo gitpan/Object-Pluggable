@@ -3,7 +3,7 @@ BEGIN {
   $Object::Pluggable::AUTHORITY = 'cpan:HINRIK';
 }
 BEGIN {
-  $Object::Pluggable::VERSION = '1.27';
+  $Object::Pluggable::VERSION = '1.28';
 }
 
 use strict;
