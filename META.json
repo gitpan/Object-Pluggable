@@ -24,7 +24,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Pod::Parser" : 0,
+            "Pod::Parser" : "1.36",
             "Test::More" : 0
          }
       },
@@ -57,7 +57,7 @@
          "web" : "http://github.com/hinrik/object-pluggable"
       }
    },
-   "version" : "1.28",
+   "version" : "1.29",
    "x_authority" : "cpan:HINRIK"
 }
 

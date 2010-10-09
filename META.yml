@@ -4,7 +4,7 @@ author:
   - 'Chris Williams <chris@bingosnet.co.uk>'
   - 'Hinrik Örn Sigurðsson <hinrik.sig@gmail.com>'
 build_requires:
-  Pod::Parser: 0
+  Pod::Parser: 1.36
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.31
@@ -29,5 +29,5 @@ resources:
   homepage: http://search.cpan.org/dist/Object-Pluggable/
   license: http://dev.perl.org/licenses/
   repository: git://github.com/hinrik/object-pluggable.git
-version: 1.28
+version: 1.29
 x_authority: cpan:HINRIK

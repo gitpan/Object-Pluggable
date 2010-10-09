@@ -12,7 +12,7 @@ my %WriteMakefileArgs = (
   'ABSTRACT' => 'A base class for creating plugin-enabled objects',
   'AUTHOR' => 'Chris Williams <chris@bingosnet.co.uk>, Hinrik Örn Sigurðsson <hinrik.sig@gmail.com>',
   'BUILD_REQUIRES' => {
-    'Pod::Parser' => '0',
+    'Pod::Parser' => '1.36',
     'Test::More' => '0'
   },
   'CONFIGURE_REQUIRES' => {
@@ -26,7 +26,7 @@ my %WriteMakefileArgs = (
     'Task::Weaken' => '0',
     'constant' => '1.17'
   },
-  'VERSION' => '1.28',
+  'VERSION' => '1.29',
   'test' => {
     'TESTS' => 't/*.t'
   }

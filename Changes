@@ -1,6 +1,9 @@
 Object::Pluggable
 =========================
 
+1.29  Sat Oct 9 02:52:22 GMT 2010
+    - I didn't actually set the version (1.36) for Pod::Parser. Fixed.
+
 1.28  Sat Oct 2 12:06:47 GMT 2010
     - Require Pod::Parser 1.36 to avoid test failures due to =encoding utf8
 
